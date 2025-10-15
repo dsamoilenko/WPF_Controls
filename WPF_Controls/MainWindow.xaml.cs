@@ -52,9 +52,9 @@ namespace WPF_Controls
             StackPanel stackPanel = new StackPanel();
             stackPanel.Children.Add(new CheckBox { Content = "Mercedes" });
             stackPanel.Children.Add(new CheckBox { Content = "BMW" });
-            stackPanel.Children.Add(new CheckBox { Content = "Opel" });
-            stackPanel.Children.Add(new CheckBox { Content = "Nissan" });
-            stackPanel.Children.Add(new CheckBox { Content = "Aston Martin" });
+            stackPanel.Children.Add(new CheckBox { Content = "Audi" });
+            stackPanel.Children.Add(new CheckBox { Content = "Mazda" });
+            stackPanel.Children.Add(new CheckBox { Content = "Pagani Zonda F" });
             stackPanel.Height = Double.NaN;
 
             expander = new Expander();
@@ -74,12 +74,12 @@ namespace WPF_Controls
 
         private void Expander_Collapsed(object sender, RoutedEventArgs e)
         {
-            //MessageBox.Show("Collapsed!");
+            MessageBox.Show("Collapsed!");
         }
 
         private void Expander_Expanded(object sender, RoutedEventArgs e)
         {
-            //MessageBox.Show("Expanded!");
+            MessageBox.Show("Expanded!");
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

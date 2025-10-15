@@ -12,7 +12,7 @@
                      VerticalAlignment="Top"
                      Minimum="0" Maximum="100"
                      SmallChange="0.1" Value="0" />
-        
+
         <Slider Margin="0,40,268,0" Name="slider1"
                 ValueChanged="slider1_ValueChanged_1"
                 Maximum="100" Minimum="0" Value="0"
@@ -22,13 +22,13 @@
                 IsMoveToPointEnabled="False" ToolTip="Hello world"
                 AutoToolTipPlacement="BottomRight" ClipToBounds="True"
                 Height="31" VerticalAlignment="Top" TickFrequency="2" />
-        
-        <ScrollBar Name="scrollBar1" Orientation="Vertical" Margin="614,150,0,0"
+
+        <ScrollBar Name="scrollBar1" Orientation="Vertical" Margin="612,107,0,0"
                    ValueChanged="scrollBar1_ValueChanged"
                    Maximum="100" Minimum="0"
                    RenderTransformOrigin="0.5,0.5"
-                   Width="26" Height="134" VerticalAlignment="Top" HorizontalAlignment="Left" >
-            
+                   Width="26" Height="225" VerticalAlignment="Top" HorizontalAlignment="Left" >
+
             <ScrollBar.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -60,9 +60,9 @@
         <Button Content="Add expander" HorizontalAlignment="Left" Margin="0,104,0,0" VerticalAlignment="Top" Width="123" Click="Button_Click"/>
         <Button Content="Expand/Collapse" HorizontalAlignment="Left" Margin="128,104,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click_1"/>
         <Border Margin="0,0,36,34" Height="26" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="241" BorderThickness="1" BorderBrush="Black" >
-            <Label Content="Hello world!"  FlowDirection="LeftToRight" HorizontalContentAlignment="Right"/>
+            <Label Content="Hello world!"  FlowDirection="LeftToRight" HorizontalContentAlignment="Right" HorizontalAlignment="Right" Width="240"/>
         </Border>
-        <Button Content="Step +" HorizontalAlignment="Left" Margin="253,104,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+        <Button Content="Step +" HorizontalAlignment="Left" Margin="253,104,0,0" VerticalAlignment="Top" Width="223" Click="Button_Click_2"/>
     </Grid>
 
 </Window>
