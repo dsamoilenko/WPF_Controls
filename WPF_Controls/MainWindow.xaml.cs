@@ -53,8 +53,8 @@ namespace WPF_Controls
             stackPanel.Children.Add(new CheckBox { Content = "Mercedes" });
             stackPanel.Children.Add(new CheckBox { Content = "BMW" });
             stackPanel.Children.Add(new CheckBox { Content = "Audi" });
-            stackPanel.Children.Add(new CheckBox { Content = "Mazda" });
-            stackPanel.Children.Add(new CheckBox { Content = "Pagani Zonda F" });
+            //stackPanel.Children.Add(new CheckBox { Content = "Mazda" });
+            //stackPanel.Children.Add(new CheckBox { Content = "Pagani Zonda F" });
             stackPanel.Height = Double.NaN;
 
             expander = new Expander();

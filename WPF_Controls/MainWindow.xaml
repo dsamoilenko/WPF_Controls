@@ -58,11 +58,11 @@
         <RadioButton Height="16" HorizontalAlignment="Right" Margin="0,40,62,0" Name="radioButton3" 
                      VerticalAlignment="Top" Width="120" GroupName="Group1">RadioButton</RadioButton>
         <Button Content="Add expander" HorizontalAlignment="Left" Margin="0,104,0,0" VerticalAlignment="Top" Width="123" Click="Button_Click"/>
-        <Button Content="Expand/Collapse" HorizontalAlignment="Left" Margin="128,104,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click_1"/>
+        <Button Content="Expand/Collapse" HorizontalAlignment="Left" Margin="128,104,0,0" VerticalAlignment="Top" Width="195" Click="Button_Click_1"/>
         <Border Margin="0,0,36,34" Height="26" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="241" BorderThickness="1" BorderBrush="Black" >
             <Label Content="Hello world!"  FlowDirection="LeftToRight" HorizontalContentAlignment="Right" HorizontalAlignment="Right" Width="240"/>
         </Border>
-        <Button Content="Step +" HorizontalAlignment="Left" Margin="253,104,0,0" VerticalAlignment="Top" Width="223" Click="Button_Click_2"/>
+        <Button Content="Step +" HorizontalAlignment="Left" Margin="334,104,0,0" VerticalAlignment="Top" Width="142" Click="Button_Click_2"/>
     </Grid>
 
 </Window>

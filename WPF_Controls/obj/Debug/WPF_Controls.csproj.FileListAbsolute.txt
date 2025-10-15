@@ -13,3 +13,4 @@ C:\Temp\WPF_Controls\WPF_Controls\obj\Debug\WPF_Controls.csproj.GenerateResource
 C:\Temp\WPF_Controls\WPF_Controls\obj\Debug\WPF_Controls.csproj.CoreCompileInputs.cache
 C:\Temp\WPF_Controls\WPF_Controls\obj\Debug\WPF_Controls.exe
 C:\Temp\WPF_Controls\WPF_Controls\obj\Debug\WPF_Controls.pdb
+C:\Temp\WPF_Controls\WPF_Controls\obj\Debug\WPF_Controls.exe.config
